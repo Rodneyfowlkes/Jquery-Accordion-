@@ -1,0 +1,40 @@
+.main_div {
+  background-color: #CDDFE3;
+  height: 500; }
+
+.div1 {
+  border: 1px solid #FCD98A;
+  height: 110px; }
+
+.div2 {
+  border: 1px solid #FCD98A; }
+
+.div3 {
+  border: 1px solid #FCD98A; }
+
+.tog1 {
+  background-color: #F3CFB9;
+  margin: 0px; }
+
+.tog2 {
+  background-color: #F3CFB9;
+  margin: 0px; }
+
+.tog3 {
+  background-color: #F3CFB9;
+  margin: 0px; }
+
+ul {
+  list-style: none; }
+
+.change-color:hover {
+  background-color: #A6BB7C; }
+
+.change-text {
+  overflow: hidden; }
+
+.change-height {
+  -webkit-transition: height 4s;
+  -moz-transition: height 4s;
+  transition: height 4s ease;
+  height: 0px; }
