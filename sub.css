@@ -3,35 +3,56 @@
   height: 500; }
 
 .div1 {
+  background-color: #395E74;
   border: 1px solid #FCD98A;
-  height: 110px; }
+  color: #7BB1CB;
+  -webkit-transition: height 4s;
+  -moz-transition: height 4s;
+  transition: height 4s ease;
+  height: 110px;
+  overflow: hidden; }
 
 .div2 {
-  border: 1px solid #FCD98A; }
+  border: 1px solid #FCD98A;
+  background-color: #395E74;
+  color: #7BB1CB;
+  -webkit-transition: height 4s;
+  -moz-transition: height 4s;
+  transition: height 4s ease;
+  height: 130px;
+  overflow: hidden; }
 
 .div3 {
-  border: 1px solid #FCD98A; }
+  color: #7BB1CB;
+  border: 1px solid #FCD98A;
+  overflow: hidden;
+  background-color: #395E74;
+  -webkit-transition: height 4s;
+  -moz-transition: height 4s;
+  transition: height 4s ease;
+  height: 40px; }
 
 .tog1 {
-  background-color: #F3CFB9;
-  margin: 0px; }
+  background-color: #65826A;
+  margin: 0px;
+  opacity: 1;
+  height: 50px; }
 
 .tog2 {
-  background-color: #F3CFB9;
-  margin: 0px; }
+  background-color: #65826A;
+  margin: 0px;
+  height: 50px; }
 
 .tog3 {
-  background-color: #F3CFB9;
-  margin: 0px; }
+  background-color: #65826A;
+  margin: 0px;
+  height: 50px; }
 
 ul {
   list-style: none; }
 
 .change-color:hover {
   background-color: #A6BB7C; }
-
-.change-text {
-  overflow: hidden; }
 
 .change-height {
   -webkit-transition: height 4s;
